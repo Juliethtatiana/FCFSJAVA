@@ -94,5 +94,8 @@ public class Proceso {
         this.estado = estado;
     }
     
+    public void calcularValores(){
     
+    
+    }
 }

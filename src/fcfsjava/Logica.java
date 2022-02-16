@@ -53,6 +53,7 @@ public class Logica implements Runnable {
             } catch (InterruptedException ex) {
                 Logger.getLogger(Logica.class.getName()).log(Level.SEVERE, null, ex);
             }
+            
             procesos.get(ultmProceso).setEstado("activo");
             
        ultmProceso++;
